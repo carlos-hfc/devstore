@@ -3,9 +3,6 @@ const nextConfig = {
   images: {
     remotePatterns: [{ hostname: "*" }],
   },
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
   eslint: {
     ignoreDuringBuilds: true,
   },
