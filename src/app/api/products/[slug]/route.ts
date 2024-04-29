@@ -10,8 +10,6 @@ interface ProductRequest {
 }
 
 export async function GET(_: NextRequest, { params }: ProductRequest) {
-  await new Promise(resolve => setTimeout(resolve, 5000))
-
   const slug = z.string().parse(params.slug)
 
   const product = data.products.find(product => product.slug === slug)
