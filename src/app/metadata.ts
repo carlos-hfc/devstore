@@ -24,6 +24,11 @@ export const config: Metadata = {
     },
   },
   icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "180x180" },
+      { url: "/favicon.ico", type: "image/x-icon", sizes: "48x48" },
+    ],
+    apple: { url: "/apple-icon.png", type: "image/png", sizes: "180x180" },
     shortcut: "/favicon/shortcut-icon.png",
     other: {
       rel: "mask-icon",
